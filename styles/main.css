@@ -1,0 +1,23 @@
+
+h1 {
+    font-size: 28px;
+}
+
+/* If the screen size is 768px wide or more, set the font-size to 30px */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+}
+
+/* If the screen size is 1200px wide or more, set the font-size to 80px */
+@media (min-width: 1200px) {
+    h1 {
+      font-size: 56px;
+    }
+}
+
+.card-img-top{
+    /* width: auto; */
+    height: 50vh;
+}
