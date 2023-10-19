@@ -40,25 +40,25 @@
 
     <div class="container">
         <div class="row py-3">
-            <button type="button" class="btn btn-dark w-auto">Back</button>
+            <a type="button" class="btn btn-dark w-auto" href="javascript:history.back()">Back</a>
         </div>
         <div class="row">
             <div class="col-md-6 mb-3">
-                <img src="https:\/\/www.thecocktaildb.com\/images\/media\/drink\/5noda61589575158.jpg" class="img-fluid rounded-4">
+                <img src="https:\/\/www.thecocktaildb.com\/images\/media\/drink\/5noda61589575158.jpg" class="img-fluid rounded-4" id="cocktailImage">
             </div>
             <div class="col-md-6">
                 <div class="card rounded-4">
                     <div class="card-body">
-                        <h1 class="text-light-emphasis">Margarita</h1>
-                        <span class="badge rounded-pill text-bg-secondary">Alcoholic</span>
-                        <span class="badge rounded-pill text-bg-secondary">Cocktail glass</span>
-                        <p class="pt-3">Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.</p>
+                        <h1 class="text-light-emphasis" id="cocktailName">---</h1>
+                        <span class="badge rounded-pill text-bg-secondary" id="cocktailCategory">No Category</span>
+                        <span class="badge rounded-pill text-bg-secondary" id="cocktailGlass">No Glass</span>
+                        <p class="pt-3" id="cocktailInstructions">No Instructions</p>
                         <h6>Ingredients</h6>
                         <ul class="list-group">
-                            <li class="list-group-item">Tequila</li>
-                            <li class="list-group-item">Triple sec</li>
-                            <li class="list-group-item">Lime juice</li>
-                            <li class="list-group-item">Salt</li>
+                            <li class="list-group-item" id="cocktailIngredient1">N/A</li>
+                            <li class="list-group-item" id="cocktailIngredient2">N/A</li>
+                            <li class="list-group-item" id="cocktailIngredient3">N/A</li>
+                            <li class="list-group-item" id="cocktailIngredient4">N/A</li>
                         </ul> 
                     </div>
                   </div>
@@ -70,7 +70,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-    <script src="../scripts/main.js"></script>
+    <script src="../scripts/cocktail.js"></script>
 
   </body>
 </html>
